@@ -1,0 +1,58 @@
+# === SISTEMA E AMBIENTE ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+
+# === PYTHON (caso use scripts) ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+*.egg-info/
+
+# === NODE (caso use ferramentas JS) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === DOCKER ===
+**/.dockerignore
+**/docker-compose.override.yml
+
+# === TERRAFORM ===
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# === ANSIBLE ===
+*.retry
+
+# === CI/CD ===
+*.env
+.env.*
+secrets.yaml
+secret*.json
+token.txt
+
+# === OUTROS ===
+.idea/
+.vscode/
+*.out
+*.zip
+*.tar
+*.gz
+
+# === BACKUPS E DUMPS ===
+*.bak
+*.old
+*.backup
+dump.sql
